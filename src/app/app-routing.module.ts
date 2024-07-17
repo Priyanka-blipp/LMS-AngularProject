@@ -6,6 +6,8 @@ import { LoginComponent } from './components/login/login.component';
 import { NewJoinerDashboardComponent } from './components/new-joiner-dashboard/new-joiner-dashboard.component';
 import { MentorDashboardComponent } from './components/mentor-dashboard/mentor-dashboard.component';
 import { AdminDashboardComponent } from './components/admin-dashboard/admin-dashboard.component';
+import { AddcourseComponent } from './components/addcourse/addcourse.component';
+import { CourseliststudentComponent } from './components/courseliststudent/courseliststudent.component';
 
 const routes: Routes = [
   { path: '', component: WelcomepageComponent },
@@ -13,7 +15,9 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'newJoinerDashboard', component: NewJoinerDashboardComponent },
   { path: 'mentorDashboard', component: MentorDashboardComponent },
-  { path: 'adminDashboard', component: AdminDashboardComponent }
+  { path: 'adminDashboard', component: AdminDashboardComponent },
+  { path: 'addcourse', component: AddcourseComponent },
+  { path: 'courseliststudent', component: CourseliststudentComponent },
 ];
 
 @NgModule({
