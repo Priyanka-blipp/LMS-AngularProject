@@ -11,6 +11,11 @@ import { MentorDashboardComponent } from './components/mentor-dashboard/mentor-d
 import { AdminDashboardComponent } from './components/admin-dashboard/admin-dashboard.component';
 import { RegistrationService } from './services/registration.service';
 import { HttpClientModule } from '@angular/common/http';
+import { AddcourseComponent } from './components/addcourse/addcourse.component';
+import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { CourseliststudentComponent } from './components/courseliststudent/courseliststudent.component';
+import { CourseService } from './services/course.service';
 
 @NgModule({
   declarations: [
@@ -20,7 +25,11 @@ import { HttpClientModule } from '@angular/common/http';
     LoginComponent,
     NewJoinerDashboardComponent,
     MentorDashboardComponent,
-    AdminDashboardComponent
+    AdminDashboardComponent,
+    AddcourseComponent,
+    HeaderComponent,
+    FooterComponent,
+    CourseliststudentComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +39,8 @@ import { HttpClientModule } from '@angular/common/http';
   ],
   providers: [
     provideClientHydration(),
-    RegistrationService
+    RegistrationService,
+    CourseService
   ],
   bootstrap: [AppComponent]
 })

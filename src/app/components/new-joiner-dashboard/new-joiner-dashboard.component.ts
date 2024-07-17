@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrl: './new-joiner-dashboard.component.css'
 })
 export class NewJoinerDashboardComponent {
+    loggedUser = '';
+      currRole = '';
+//       courses : Observable<any[]> | undefined;
 
+      ngOnInit(): void
+      {
+
+      }
 }
