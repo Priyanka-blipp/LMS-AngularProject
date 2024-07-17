@@ -16,6 +16,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CourseliststudentComponent } from './components/courseliststudent/courseliststudent.component';
 import { CourseService } from './services/course.service';
+import { StudentQueriesComponent } from './components/student-queries/student-queries.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { CourseService } from './services/course.service';
     AddcourseComponent,
     HeaderComponent,
     FooterComponent,
-    CourseliststudentComponent
+    CourseliststudentComponent,
+    StudentQueriesComponent
   ],
   imports: [
     BrowserModule,

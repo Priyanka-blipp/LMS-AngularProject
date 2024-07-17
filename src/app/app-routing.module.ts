@@ -8,6 +8,7 @@ import { MentorDashboardComponent } from './components/mentor-dashboard/mentor-d
 import { AdminDashboardComponent } from './components/admin-dashboard/admin-dashboard.component';
 import { AddcourseComponent } from './components/addcourse/addcourse.component';
 import { CourseliststudentComponent } from './components/courseliststudent/courseliststudent.component';
+import { StudentQueriesComponent } from './components/student-queries/student-queries.component';
 
 const routes: Routes = [
   { path: '', component: WelcomepageComponent },
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'adminDashboard', component: AdminDashboardComponent },
   { path: 'addcourse', component: AddcourseComponent },
   { path: 'courseliststudent', component: CourseliststudentComponent },
+  { path: 'student-queries', component: StudentQueriesComponent },
 ];
 
 @NgModule({
