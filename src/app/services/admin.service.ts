@@ -2,7 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { environment } from 'src/environments/environment';
-import { Professor } from '../models/professor';
+import { Professor } from '../models/mentor';
 
 const NAV_URL = environment.apiURL;
 
@@ -11,7 +11,7 @@ const NAV_URL = environment.apiURL;
 })
 export class AdminService
 {
-  professor = new Professor();
+  professor = new Mentor();
 
   constructor(private _http : HttpClient) { }
 

@@ -11,7 +11,7 @@
     background: #1a1a1a;
     color: #fff;
   }
-
+  
   .content-container {
     padding-top: 20px;
   }
@@ -44,21 +44,21 @@
     transform: scale(1.1);
     cursor: pointer;
   }
-
+  
   .sidebar-navigation li .fa {
     margin-right: 10px;
   }
-
+  
   .sidebar-navigation li a:active,
   .sidebar-navigation li a:hover,
   .sidebar-navigation li a:focus {
     text-decoration: none;
     outline: none;
   }
-
+  
   .sidebar-navigation li::before {
     background-color: #13584f;
-
+    
     content: '';
     height: 100%;
     left: 0;
@@ -68,22 +68,22 @@
     width: 3px;
     z-index: -1;
   }
-
+  
   .sidebar-navigation li:hover::before {
     width: 100%;
   }
-
+  
   .sidebar-navigation .header {
     font-size: 12px;
     text-transform: uppercase;
     background-color: #151515;
     padding: 10px 15px 10px 30px;
   }
-
+  
   .sidebar-navigation .header::before {
     background-color: transparent;
   }
-
+  
   .content-container {
     padding-left: 220px;
   }
@@ -133,8 +133,8 @@ padding: 3%;
 }
 .dashboard-card:hover
 {
-  transform: scale(1.05);
-  cursor: pointer;
+  transform: scale(1.05); 
+  cursor: pointer;  
 }
 .circle{
 border-radius: 50%;

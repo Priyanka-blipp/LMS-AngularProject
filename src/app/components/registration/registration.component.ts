@@ -19,8 +19,6 @@ export class RegistrationComponent implements OnInit {
          this.registrationService.registerUserFromRemote(this.employee).subscribe(
            (data : any) => {
              console.log("Registration Success");
-             sessionStorage.setItem("firstname",this.employee.firstname);
-             sessionStorage.setItem("lastname",this.employee.lastname);
              //this._router.navigate(['/registrationsuccess']);
            },
            (error : any) => {
@@ -32,5 +30,6 @@ export class RegistrationComponent implements OnInit {
        }
 ngOnInit(): void {
     // Initialization logic here
+
   }
 }
