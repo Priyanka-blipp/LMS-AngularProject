@@ -7,13 +7,15 @@ import { WelcomepageComponent } from './components/welcomepage/welcomepage.compo
 import { RegistrationComponent } from './components/registration/registration.component';
 import { RegistrationService } from './services/registration.service';
 import { HttpClientModule } from '@angular/common/http';
-
+import { AdmindashboardComponent } from './components/admindashboard/admindashboard.component';
+import { AdminService } from './services/admin.service';
 
 @NgModule({
   declarations: [
     AppComponent,
     WelcomepageComponent,
-    RegistrationComponent
+    RegistrationComponent,
+    AdmindashboardComponent
   ],
   imports: [
     BrowserModule,
